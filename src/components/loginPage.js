@@ -128,7 +128,7 @@ export default function App(props){
         <div className="LoginPage">
             
             <div className = "container">
-                <h1>Podify</h1>
+                <h1> Sushanthi Podify</h1>
                 <h2>Discover Hidden Gems and Classic Favorites in Our Vast Podcast Library.</h2>
                 <img className="podcast-img" src={require("./podcast.jpg")} alt="" />
             </div>
