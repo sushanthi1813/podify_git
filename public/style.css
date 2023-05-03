@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inder";
+}
+
+.LoginPage{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding:6% 0%;
+}
+
+.active{
+    padding-bottom:10px;
+    border-bottom: 3px solid #00C2FF;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-right:10%;
+}
+
+.podcast-img{
+    width: 500px;
+    margin-top:20px;
+}
+
+.container h1{
+    font-size:60px;
+    width: 207px;
+    border: none;
+}
+.container h2{
+    font-family: Inder;
+    font-size: 30px;
+    width:500px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: justify;
+    color:#3f3c3c;
+    margin-top:20px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 400px;
+    margin-left:10%;
+    margin-top:5%;
+}
+
+.positions{
+    display: flex;
+    justify-content: space-around !important;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs input{
+    width: 300px;
+    height: 45px;
+    background: #D9D9D9;
+    font-family: Inder;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    outline:none;
+    border:none;
+    margin-block:10px;
+    padding-inline:35px;
+    border-radius: 3px;
+}
+
+.email{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top:23px;
+    left:10px;
+
+}
+
+.inner-inp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position:relative;
+}
+
+.password{
+    position: relative;
+}
+
+.name{
+    position: relative;
+}
+
+.password-icon{
+    position: absolute;
+    top:22px;
+    left:8px;
+
+}
+
+.inner-inp label{
+    margin-left:15px;
+    font-family: Inder;
+    font-size: 13px;
+    font-weight: 700;
+    color: #00C2FF;
+}
+
+.forgot-pass{
+    font-family: Inder;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    color: #00C2FF;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+
+input[type=checkbox]{
+    width: auto;
+    height: 10px;
+    margin-left:5px;
+    transform: scale(2);
+}
+
+.inputs button{
+    width: 300px;
+    height: 45px;
+    color:white;
+    border:none;
+    font-size:20px;
+    background: #00C2FF;
+    margin-block:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
